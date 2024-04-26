@@ -1,0 +1,43 @@
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;  
+    color: #fff;  
+}
+.nav_bar {
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.logo {
+    background: url("https://t4.ftcdn.net/jpg/03/16/30/33/360_F_316303329_yc1rzqRU89PLMK1DXL4d0Zl86UEbeGcT.jpg");
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.container {
+    margin-top: 30px;
+} 
+.row {
+}
+.text_col {
+}
+.image_col {
+}
+
+.img {
+    background: url("D:\\projects VScode\\PT\\For_PT_Start\\image\\seals.jpg");
+    background-size: 100%;
+    width: 200px;
+    height: 250px;
+}
+
+.img_size {
+}
+.title_photo {
+    text-align: center;
+}
