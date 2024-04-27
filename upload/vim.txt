@@ -1,0 +1,3 @@
+hello first string
+and this is second yes
+here was 2 strings

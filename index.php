@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class ="col-12 index">
-                <h1>Авторизуйтесь!</h1>
+                <h1>Страница постов!</h1>
             <?php
             if (!isset($_COOKIE['User'])) {
             ?>
@@ -23,6 +23,20 @@
             }
             else {
                 //подключение к бд
+                $link = mysqli_connect('127.0.0.1', 'root', 'kali', 'pt_start');
+
+                $sql = "SELECT * FROM posts";
+                $result = mysqli_query($link, $sql);
+                if(mysqli_num_rows($result) > 0) {
+                    while ($post = mysqli_fetch_array($result)) {
+                        $id = $post["id"];
+                        echo "<a href='/posts.php?id=$id'>".$post['title']."</a><br>";
+                    }
+                }
+                else {
+                    echo "Записей пока нет";
+                }
+                
             }
             ?>
             </div>

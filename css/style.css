@@ -59,3 +59,54 @@ body {
 .col-12.index {
     text-align: center;
 }
+
+.form__reg {
+    margin: 10px 0 10px 0;
+}
+
+.reg_text {
+    text-align: center;
+}
+
+.btn__reg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-weight: 900;
+    background-color: crimson;
+    border-color: lightcoral;
+    color: #fff;
+}
+
+.btn__post {
+    border: none;
+    border-radius: 10px;
+    background-color: lightcyan;
+    width: 150px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.hello {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title {
+    width: 500px;
+    margin: 10px 0 10px 0;
+}
+
+.form__main {
+    width: 500px;
+    margin: 0 0 10px 0;
+}
