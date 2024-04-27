@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container login">
+    <div class="container">
         <div class="row">
             <div class ="col-12 index">
                 <h1>Авторизуйтесь!</h1>
